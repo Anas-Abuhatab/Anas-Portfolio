@@ -19,12 +19,12 @@ import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
 import promo1 from "assets/img/theme/promo-1.png";
-import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
+import cardImg from "assets/img/theme/logo.png";
 import ill2 from "assets/img/ill/ill-2.svg";
-import team1 from "assets/img/theme/team-1-800x800.jpg";
-import team2 from "assets/img/theme/team-2-800x800.jpg";
-import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
+import team1 from "assets/img/theme/wesam.jpg";
+import team2 from "assets/img/theme/dima.jfif";
+import team3 from "assets/img/theme/haya.jpg";
+import team4 from "assets/img/theme/sana.jpg";
 
 // reactstrap components
 import {
@@ -359,12 +359,11 @@ class Landing extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                      Travel Beyond
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                      Traveling is a very crucial part of life as it is the best way to get out of the busy schedule.
+                      It is also to experience life in different ways .
                       </p>
                     </blockquote>
                   </Card>
@@ -381,21 +380,16 @@ class Landing extends React.Component {
                       first via JavaScript.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
-                    </p>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                    This website is dedicated for all travel lovers, it gives travel tips, shares travel experiences,
+                     helps you choose your next travel destination, it also offers annual free trips for its participants, all they have to do 
+                    to be part of the competition is fill a form, every year In June, a random winner will be picked.
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
-                      href="#pablo"
+                      href="https://201-dreamteam.github.io/Travel-Beyond-/"
                       onClick={e => e.preventDefault()}
                     >
-                      A beautiful UI Kit for impactful websites
+                      Visit Travel Beyond Site
                     </a>
                   </div>
                 </Col>
@@ -423,11 +417,6 @@ class Landing extends React.Component {
                     </div>
                     <div className="pl-4">
                       <h4 className="display-3 text-white">Modern Interface</h4>
-                      <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
-                      </p>
                     </div>
                   </div>
                   <Card className="shadow shadow-lg--hover mt-5">
@@ -442,11 +431,6 @@ class Landing extends React.Component {
                           <h5 className="title text-success">
                             Awesome Support
                           </h5>
-                          <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
-                          </p>
                           <a
                             className="text-success"
                             href="#pablo"
@@ -470,11 +454,6 @@ class Landing extends React.Component {
                           <h5 className="title text-warning">
                             Modular Components
                           </h5>
-                          <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
-                          </p>
                           <a
                             className="text-warning"
                             href="#pablo"
@@ -511,11 +490,6 @@ class Landing extends React.Component {
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
                   <h2 className="display-3">The amazing Team</h2>
-                  <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
-                  </p>
                 </Col>
               </Row>
               <Row>
