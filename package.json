@@ -46,12 +46,14 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "@angular-devkit/build-angular": "^12.2.5",
     "bootstrap": "4.3.1",
     "classnames": "2.2.6",
+    "core-js": "^3.17.3",
     "create-react-app": "^4.0.3",
     "headroom.js": "0.11.0",
     "moment": "2.24.0",
-    "node-sass": "4.13.1",
+    "node-sass": "^6.0.1",
     "nouislider": "14.1.1",
     "react": "16.12.0",
     "react-datetime": "2.16.3",
